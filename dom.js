@@ -67,3 +67,22 @@ Consigna: Selecciona del DOM el elemento con la clase "header" y muestra en la c
 
 let headerElement = document.querySelector(".header");
 console.log(headerElement.classList.contains("sticky"));
+
+/*
+DOS LISTADOS
+*/
+
+elements1 = ["a", "b", "c"];
+elements2 = ["d", "e", "f"];
+let lista1 = document.querySelector(".listado1");
+let lista2 = document.querySelector(".listado2");
+elements1.forEach(function (element) {
+  let elementToAppend = document.createElement("li");
+  elementToAppend.textContent = element;
+  lista1.append(elementToAppend);
+});
+elements2.forEach(function (element) {
+  let elementToAppend = document.createElement("li");
+  elementToAppend.textContent = element;
+  lista2.append(elementToAppend);
+});
