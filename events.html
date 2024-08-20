@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagina 2</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+      main {
+        padding: 0 5%;
+      }
+      form {
+        background-color: lavender;
+        padding: 10px 20px;
+        display: block;
+      }
+      #signup-form {
+        height: 100px;
+      }
+      #contact-form {
+        height: 65px;
+      }
+      #email-form {
+        height: 65px;
+      }
+      .form-div {
+        display: flex;
+        gap: 40px;
+        padding: 7px 0;
+        align-items: center;
+      }
+      button {
+        padding: 10px;
+        margin: 10px;
+      }
+      .no-mostrar {
+        display: none;
+      }
+      .highlight {
+        font-size: 20px;
+        font-style: italic;
+      }
+      a {
+        display: block;
+      }
+      .color-list {
+        height: 15px;
+        width: 30px;
+        background-color: rosybrown;
+      }
+      img {
+        width: 200px;
+      }
+      .resize-img {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <button id="show-message">ALERTA!!</button>
+
+      <p id="click-text">clickeame</p>
+
+      <input type="text" id="text-input" />
+      <p id="changeable-text"></p>
+
+      <form action="" id="signup-form">
+        <div class="form-div">
+          <label for="name">Enter your name:</label>
+          <input type="text" name="" id="signup-input-one" />
+        </div>
+        <div class="form-div">
+          <label for="password">Enter your password:</label>
+          <input type="text" name="" id="signup-input-two" />
+        </div>
+        <input id="sumbit-input" type="submit" />
+      </form>
+
+      <button id="add-item">Agregar item</button>
+      <ul id="list-items"></ul>
+
+      <form action="" id="contact-form">
+        <div class="form-div">
+          <label for="contac">Enter your number:</label>
+          <input type="text" name="" id="contact-input" />
+        </div>
+        <input id="sumbit-input" type="submit" />
+      </form>
+
+      <button id="count-button">Agregar</button>
+      <span id="click-count">clicks: 0</span>
+
+      <form action="" id="email-form">
+        <div class="form-div">
+          <label for="email">Enter your mail:</label>
+          <input type="text" name="" id="mail-input" />
+        </div>
+        <input id="sumbit-input" type="submit" />
+      </form>
+
+      <button id="toggle-content">Cambiar contenido</button>
+      <div class="content-box">aaaaaa</div>
+
+      <a href="www.youtube.com" class="no-default">yutub</a>
+
+      <button id="add-class">Highligth</button>
+      <p class="text">Pijurria</p>
+
+      <button id="toggle-text">Alternar texto</button>
+      <p class="text-toggle">Pijurria</p>
+
+      <button id="add-html">Agregar html</button>
+      <div class="container"></div>
+
+      <button id="create-element">Crear elemento</button>
+      <div class="content"></div>
+
+      <button id="change-color">Cambiar color</button>
+      <ul style="background-color: antiquewhite">
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+        <li class="color-list"></li>
+      </ul>
+
+      <button id="create-list">Agregar lista</button>
+      <div class="list-container"></div>
+
+      <img id="resize-image" src="./qchau.jpeg" alt="kuchau" />
+    </main>
+
+    <script src="./events.js"></script>
+  </body>
+</html>
