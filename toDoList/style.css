@@ -1,92 +1,92 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 24px;
-    font-family: "Edu VIC WA NT Beginner", cursive;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
-.dark-body{
-    background-color: #1C1C1C;
-    color: #FFF;
+.dark-body {
+  background-color: #1c1c1c;
+  color: #fff;
 }
-main{
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 50px;
+main {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
-h1{
-    width: 100%;
-    margin: 0;
-    padding: 20px 0 10px 0;
-    text-align: center;
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  text-align: center;
 }
-.lists-container{
-    padding: 0 3%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2%;
-    width: 94%;
-    color: black;
+.lists-container {
+  padding: 0 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+  width: 94%;
+  color: black;
 }
-.list-container{
-    background-color: #FFFF88;
-    padding: 10px 20px;
+.list-container {
+  background-color: #ffff88;
+  padding: 10px 20px;
 }
-.list-titles{
-    margin: 0;
-    padding: 0 0 7px 0;
-    font-size: 40px;
-    font-style: italic;
+.list-titles {
+  margin: 0;
+  padding: 0 0 7px 0;
+  font-size: 40px;
+  font-style: italic;
 }
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-li{
-    padding: 2px 0 10px 0;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+li {
+  padding: 2px 0 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
-input{
-    width: 75px;
-    font-size: 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-    padding: 0;
-    margin: 0;
-    background-color: #FFFF88;
-    box-shadow: none;
-    border: none;
+input {
+  width: 75px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ffff88;
+  box-shadow: none;
+  border: none;
 }
 .delete-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    border: none;
-    background-color: transparent;
-    color: #FF6B6B;    
-    cursor: pointer;
-    outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  color: #ff6b6b;
+  cursor: pointer;
+  outline: none;
 }
 .delete-button:hover {
-    color: #C23B22;
+  color: #c23b22;
 }
-.mode-button{
-    bottom: 10px;
-    right: 10px;
-    position: fixed;
-    border: 1px solid #1C1C1C;
-    background-color: #FFF5EE;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.mode-button {
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  border: 1px solid #1c1c1c;
+  background-color: #fff5ee;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
